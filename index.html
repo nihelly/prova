@@ -17,33 +17,54 @@
     </a>
   <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link text-body-secondary" aria-current="page" href="#">Active</a>
+    <a class="nav-link text-body-secondary" aria-current="page" href="#elas">Feminino</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-body-secondary" href="#">Link</a>
+    <a class="nav-link text-body-secondary" href="#eles">Masculino</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-body-secondary" href="#">Link</a>
+    <a class="nav-link text-body-secondary" href="#Fragrâncias">Fragrâncias</a>
+  <li class="nav-item">
+    <a class="nav-link text-body-secondary" href="#Calçados">Calçados</a>
+  <li class="nav-item">
+    <a class="nav-link text-body-secondary" href="#Maquiagem">Maquiagem</a>
+  <li class="nav-item">
+    <a class="nav-link text-body-secondary" href="#Tratamento">Tratamento</a>
+  <li class="nav-item">
+    <a class="nav-link text-body-secondary" href="sobre.html">Sobre-Nós</a>
   </li>
   </div>
 </nav>
 <!--carrousel-->
 <div class="container">
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/banner dior.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/banner2.webp" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
       <img src="img/banner 3.webp" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="img/banner5.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/banner7.webp" class="d-block w-100" alt="...">
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 <!--categorias- ELAS-->
-<div>
+<div class="categorias" id="elas">
     <h2>Navegue por Categorias - ELAS </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 categorias ">
@@ -52,7 +73,7 @@
     <img src="/img/ela3.webp" class="object-fit-lg-contain border rounded" alt="...">
 </div>
 <!--categorias- ELES-->
-<div>
+<div  class="categorias" id="eles">
     <h2>Navegue por Categorias - ELES </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 categorias ">
@@ -61,7 +82,7 @@
     <img src="/img/ele3.webp" class="object-fit-lg-contain border rounded" alt="...">
 </div>
 <!--Categoria- Fragrâncias-->
-<div>
+<div  class="categorias" id="Fragrâncias">
     <h2>Fragrâncias </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 categorias ">
@@ -70,7 +91,7 @@
     <img src="/img/perfumef2.webp" class="object-fit-lg-contain border rounded" alt="...">
 </div>
 <!--categorias- Calçados-->
-<div>
+<div  class="categorias"id="Calçados">
     <h2>Calçados </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 ">
@@ -79,7 +100,7 @@
     <img src="/img/calçado3.webp" class="object-fit-lg-contain border rounded" alt="...">
 </div>
 <!--categorias- Maquiagem-->
-<div>
+<div  class="categorias" id="Maquiagem">
     <h2>Maquiagem </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 categorias ">
@@ -88,7 +109,7 @@
     <img src="/img/maquiagem3.webp" class="object-fit-lg-contain border rounded" alt="...">
 </div>
 <!--categorias- Tratamento-->
-<div>
+<div  class="categorias" id="Tratamento">
     <h2>Tratamento </h2>
     </div>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 categorias ">
@@ -103,6 +124,7 @@
     <div class="container">
       <div class="row">
         <!-- Coluna do texto e formulário -->
+       
         <div class="col-md-4 mb-4">
           <p><strong>Inspire-me com todas as últimas novidades</strong></p>
 
@@ -122,6 +144,7 @@
         </div>
 
         <!-- Coluna: Serviços -->
+      
         <div class="col-md-3 mb-4">
           <h6>Serviços ao Cliente</h6>
           <ul class="list-unstyled">
@@ -142,6 +165,7 @@
           </ul>
         </div>
       </div>
+      
 
       <!-- Redes sociais -->
       <div class="text-center mt-4">
@@ -152,6 +176,7 @@
       </div>
     </div>
   </footer>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
 
 </body>

@@ -1,0 +1,21 @@
+.sobre-nos{
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.sobre-nos img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.sobre-nos h2{
+    font-weight: 700;
+    color: #333;
+
+}
+.sobre-nos p{
+    color: #555;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    line-height: 1.7;
+}
